@@ -1,0 +1,23 @@
+{
+  "name": "spit-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/cli.js",
+    "spit": "npm run build && npm run start"
+  },
+  "keywords": [],
+  "author": "Zhe SolWorks",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "@types/yargs": "^17.0.26",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.78.7",
+    "yargs": "^17.7.2"
+  }
+}
