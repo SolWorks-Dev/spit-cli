@@ -1,7 +1,7 @@
 {
   "name": "@solworks/spit-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "CLI tool to quickly convert private keys into readable base58 public keys.",
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
